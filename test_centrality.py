@@ -27,4 +27,4 @@ nc = ox.plot.get_node_colors_by_attr(G, f'empowerment_{n}_steps', cmap='inferno'
 fig, ax = ox.plot_graph(G, node_color=nc, edge_linewidth=1, node_size=20, figsize=(15,15))
 nodes, streets = ox.graph_to_gdfs(G)
 cx.add_basemap(ax=ax, source=cx.providers.Stamen.TonerLite, crs=nodes.crs, alpha=0.7)
-fig.savefig(f'{name}_{type}_empowerment_{n}_step.png')
+fig.savefig(f'output/{name}_{type}_empowerment_{n}_step.png')
