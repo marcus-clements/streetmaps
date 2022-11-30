@@ -1,0 +1,3 @@
+osmnx
+scipy
+-e /Users/mc/research/code/nxempowerment
